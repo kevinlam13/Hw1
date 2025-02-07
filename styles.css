@@ -1,0 +1,123 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('background.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #444;
+    overflow: hidden;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+}
+
+.zebra-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.zebra-table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.zebra-table tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+.zebra-table td {
+    padding: 10px;
+}
+
+/* Assignments & Projects Table */
+#assignments table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#assignments table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+#assignments table tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+#assignments table td {
+    padding: 10px;
+    text-align: left;
+}
+
+#assignments table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#assignments table tbody {
+    text-align: left;
+}
+
+#assignments table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+#assignments table tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+#assignments table td {
+    padding: 10px;
+}
+
+#assignments table tr td a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+#assignments table tr td a:hover {
+    text-decoration: underline;
+}
